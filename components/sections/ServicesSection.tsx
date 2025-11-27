@@ -101,13 +101,13 @@ export default function ServicesSection() {
         {/* Carousel Container */}
         <div className="relative">
           <div className="overflow-hidden" ref={emblaRef}>
-            <div className="flex gap-6">
+            <div className="flex -ml-6">
               {services.map((service, index) => {
                 const Icon = service.icon;
                 return (
                   <div
                     key={index}
-                    className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(50%-12px)] lg:flex-[0_0_calc(33.333%-16px)]"
+                    className="flex-[0_0_100%] min-w-0 md:flex-[0_0_50%] lg:flex-[0_0_33.333%] pl-6"
                   >
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
