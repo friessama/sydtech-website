@@ -19,6 +19,7 @@ A modern, responsive website built with Next.js 15, TypeScript, and Tailwind CSS
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
+- **Carousel**: Embla Carousel React
 - **Icons**: Lucide React
 
 ## Getting Started
