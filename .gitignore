@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+
+# Documentation (temporary files - these are helpful for local reference)
+# Remove the # below if you want to commit these files to GitHub
+# LOGO_QUALITY_FIX.md
+# LOGO_SETUP_REQUIRED.md
+# PROJECT_STATUS.md

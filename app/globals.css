@@ -2,25 +2,38 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #003049;
+  --primary-blue: #0077b6;
+  --secondary-teal: #00a896;
+  --accent-green: #6bbf59;
+  --dark-navy: #003049;
+  --light-gray: #f5f5f5;
+  --orange: #f26419;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary-blue);
+  --color-secondary: var(--secondary-teal);
+  --color-accent: var(--accent-green);
+  --color-navy: var(--dark-navy);
+  --color-gray-light: var(--light-gray);
+  --color-orange: var(--orange);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  overflow-x: hidden;
 }
